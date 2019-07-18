@@ -9,7 +9,7 @@ channels = ["A","B","C","D","E","F","G","H"]
 
 attachments = [("ID",":ID_RD"),(".NAME","NAM_RD"),(".EGU","UNITS_RD"),("","T_RD"),(":SRDG","SEN_RD"),(".HIHI","HI_RD"),(".LOLO","LO_RD"),(".HIHI","HI_CSET"),(".LOLO","LO_CSET"),(".NAME","NAM_CSET"),(".EGU","UNITS_CSET")]
 
-txt_file_pth = 'output'
+txt_file_pth = 'gen_conv_output'
 num = 0
 with open(txt_file_pth, 'w') as txtfile:
     for pv_name in pv_names:
