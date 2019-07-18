@@ -1,0 +1,8 @@
+bin/
+db/
+dbd/
+O.*
+*.swp
+envPaths
+.lock*
+gen_conv_output
